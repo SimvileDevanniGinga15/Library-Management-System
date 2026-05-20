@@ -62,18 +62,19 @@ python main.py
    - Enter Book ID: B001
    - Enter Book Title: Python Programming
    - Enter Book Author: John Doe
-   ✅ Book added successfully
+   ✅ Book added: 'Python Programming'
 
 2. Register Member
    - Enter Member ID: M001
    - Enter Member Name: Jane Smith
    - Enter Member Email: jane@example.com
-   ✅ Member registered successfully
+   ✅ Member registered: Jane Smith
 
 3. Borrow Book
    - Enter Book ID: B001
    - Enter Member ID: M001
    ✅ Jane Smith borrowed 'Python Programming'
+      Loan ID: L001
 
 4. View Loans
    - Shows: L001 - Jane Smith borrowed Python Programming [Active]
@@ -81,6 +82,7 @@ python main.py
 5. Return Book
    - Enter Loan ID: L001
    ✅ Jane Smith returned 'Python Programming'
+      Loan ID: L001 [CLOSED]
 
 6. View Loans
    - Shows: L001 - Jane Smith borrowed Python Programming [Closed]
